@@ -1,0 +1,67 @@
+import java.util.HashSet;
+import java.util.Set;
+
+class Student
+		{
+			private int rollno;
+			private String name;
+			private double percentage;
+			private Set<String> skillset;
+
+			// methods of Student class
+			public Student() {
+				skillset=new HashSet<>();
+			}
+			
+			public Student(int rollno, String name, double percentage, Set<String> skillset) {
+				this.rollno=rollno;
+				this.name=name;
+				this.percentage=percentage;
+				this.skillset=skillset;
+			}
+
+			//getters and setters of rollno,name,percentage and skillset
+			public int getRollno() {
+				return rollno;
+			}
+
+			public void setRollno(int rollno) {
+				this.rollno = rollno;
+			}
+
+			public String getName() {
+				return name;
+			}
+
+			public void setName(String name) {
+				this.name = name;
+			}
+
+			public double getPercentage() {
+				return percentage;
+			}
+
+			public void setPercentage(double percentage) {
+				this.percentage = percentage;
+			}
+
+			public Set<String> getSkillset() {
+				return skillset;
+			}
+
+			public void setSkillset(Set<String> skillset) {
+				this.skillset = skillset;
+			}
+			
+			
+			
+		}
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
